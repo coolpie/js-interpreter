@@ -1,4 +1,9 @@
-#pragma once
+#ifndef _GOBAL_H
+#define _GOBAL_H
+
+#include <list>
+#include <string>
+
 class gobal
 {
 public:
@@ -6,3 +11,5 @@ public:
 	~gobal();
 };
 
+
+#endif // !_GOBAL_H
