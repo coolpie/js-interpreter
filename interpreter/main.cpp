@@ -5,6 +5,8 @@
 #include <iostream>
 #include <string>
 
+#include "lexer.h"
+
 using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -18,6 +20,10 @@ int _tmain(int argc, _TCHAR* argv[])
 			cout << "Quit";
 			return 0;
 		}
+
+		pretreat(str);
+
+
 		cout << str << endl;
 	}
 
